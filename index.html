@@ -13,29 +13,28 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-    <header>
-      <div class="top-header">
-        <h1 class="name">Nina Carducci</h1>
-        <nav class="nav" role="navigation">
-          <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#gallery">Galerie</a></li>
-            <li><a href="#services">Service</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-              <a
-                class="social-link"
-                href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-                target="_blank"
-                aria-label="Instagram de Nina Carducci"
-                ><img src="assets/images/instagram.png" alt="Logo Instagram"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="bottom-header">
+    <header class="top-header">
+      <h1 class="name">Nina Carducci</h1>
+      <nav class="nav" role="navigation">
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+              target="_blank"
+              aria-label="Instagram de Nina Carducci"
+              ><img src="assets/images/instagram.png" alt="Logo Instagram"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="header">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -107,10 +106,8 @@
             <span class="visually-hidden">Suivant</span>
           </button>
         </div>
-      </div>
-    </header>
+      </section>
 
-    <main>
       <section id="about">
         <div class="picture left">
           <img src="./assets/images/nina.png" alt="Portrait de Nina Carducci" />
@@ -139,7 +136,7 @@
       <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
-          <div class="gallery" style="display: none">
+          <div class="gallery hidden">
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
@@ -303,14 +300,13 @@
       </div>
     </footer>
 
-    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
-      defer
     ></script>
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
   </body>
 </html>

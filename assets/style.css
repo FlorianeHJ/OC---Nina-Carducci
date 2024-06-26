@@ -101,7 +101,9 @@ body {
   color: #000000;
   background-color: #e2c970;
   border-radius: 0;
+  cursor: pointer;
 }
+
 .nav-pills .nav-link {
   color: #000;
 }
